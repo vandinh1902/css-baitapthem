@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+.header .nav {
+  float: right;
+  padding: 20px 0px;
+  margin-right: 70px;
+}
+.header .nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #83d5ff;
+}
+.header .nav a:hover {
+  color: #e16c67;
+}
+/* slider */
+.slider {
+  background-image: url(../images/banner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.slider-bg {
+  background-color: #00000045;
+  height: 500px;
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  top: -40px;
+  left: 90px;
+}
+.slider-text h2 {
+  color: #e16c67;
+  font-size: 3rem;
+}
+.slider-text p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.slider-heading {
+  position: absolute;
+  top: 170px;
+  right: 0px;
+  text-align: center;
+}
+.slider-heading h2 {
+  background-color: rgb(255 255 255 / 45%);
+  font-size: 3rem;
+  color: #000000ab;
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+.slider-heading .heading-item {
+  margin-top: 70px;
+  margin-right: 110px;
+}
+.slider-heading p {
+  background-color: rgb(255 255 255 / 45%);
+  text-align: right;
+  letter-spacing: 5px;
+  color: #000000ab;
+}
+.slider-heading .heading-item .heading-text{
+    width: 60%;
+    margin-left: 185px;
+}
+/* content */
+.centent-about {
+  background-color: #29c0ff;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+.centent-about h1 {
+  background-color: #72afc8;
+  width: 23%;
+  font-size: 2rem;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.centent-about p {
+  color: #b2cfe9;
+  padding: 0 50px;
+}
+.content-welcome {
+  text-align: center;
+  padding: 0 50px;
+}
+.content-welcome > h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.content-welcome > p {
+  margin-bottom: 20px;
+  color: #959ba7;
+}
+.content-welcome .content-list .left,
+.content-welcome .content-list .right {
+  float: left;
+  width: 50%;
+}
+.content-welcome .content-list .left .item img,
+.content-welcome .content-list .right .item img {
+  width: 100%;
+}
+.content-welcome .content-list .left .item,
+.content-welcome .content-list .right .item {
+  text-align: left;
+}
+
+.content-welcome .content-list .left .item h1,
+.content-welcome .content-list .right .item h1 {
+  color: #eb5427;
+  margin: 10px 0px;
+}
+
+.content-welcome .content-list .left .item h1 > i,
+.content-welcome .content-list .right .item h1 > i {
+  color: #29c0ff;
+  padding: 0px 10px;
+}
+.content-welcome .content-list .left .item p,
+.content-welcome .content-list .right .item p {
+  color: #959ba7;
+  margin: 0 40px;
+}
+
+/* about */
+.about {
+  padding: 0 50px;
+  margin-top: 40px;
+}
+.about h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.about .about-list .about-item {
+  float: left;
+  width: 33.33334%;
+}
+.about .about-list .about-item img {
+  width: 100%;
+  padding: 2px 2px;
+}
+/* contact */
+.contact {
+  padding: 0 50px;
+  margin-top: 40px;
+}
+.contact > h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.contact-left,
+.contact-right {
+  float: left;
+  width: 50%;
+}
+.contact-left .contact-item {
+  margin-bottom: 20px;
+}
+.contact-left .contact-item h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.contact-left .contact-item p {
+  color: #959ba7;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.contact-left .contact-item p > i {
+  color: #29c0ff;
+  padding: 0px 10px;
+}
+
+.contact-right .contact-item {
+  background-image: url(../images/index-serives.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact-right .contact-item p {
+  color: #29c0ff;
+  font-size: 1.5rem;
+  margin: 30px 50px;
+}
+.contact-right .contact-item p > span {
+  color: #ffffff;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+/* footer */
+.footer {
+  background-color: #242424;
+  margin-top: 30px;
+  height: 300px;
+}
+.footer .footer-list {
+  padding: 0 70px;
+}
+.footer .footer-list .footer-item {
+  float: left;
+  width: 25%;
+}
+.footer .footer-item h1 {
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.footer .footer-item h2 {
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-item p {
+  color: #959ba7;
+  margin: 20px 0;
+}
+.footer .footer-item p > span {
+  color: #c03324;
+}
+
+.footer .footer-item input {
+  height: 30px;
+  width: 180px;
+}
+
+.footer .footer-item button {
+  height: 30px;
+  width: 50px;
+  margin-left: -5px;
+  color: #ffffff;
+  background-color: #eb5424;
+}
